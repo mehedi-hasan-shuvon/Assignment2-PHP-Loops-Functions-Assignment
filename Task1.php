@@ -24,8 +24,10 @@ function evenListPrintDoWhileLoop(int $start=1 ,int $end=20,int $step=2 ):void{
 	}while($i<=$end);
 }
 
-// evenListPrintForLoop(1,20,2);
-// evenListPrintWhileLoop(1,20,2);
-// evenListPrintDoWhileLoop(1,20,2);
+evenListPrintForLoop(1,20,2);
+echo "\n";
+evenListPrintWhileLoop(1,20,2);
+echo "\n";
+evenListPrintDoWhileLoop(1,20,2);
 
 ?>
